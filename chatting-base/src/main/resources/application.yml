@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: chatting-base
+  datasource:
+    url: jdbc:mysql://47.99.83.62:3306/tensquare_base?characterEncoding=utf8&useUnicode=true&verifyServerCertificate=false&useSSL=false&requireSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    database: mysql
